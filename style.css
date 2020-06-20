@@ -1,0 +1,266 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+
+/*body start*/
+*{
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    margin: 0px;
+    padding: 0px;
+}
+/*body end*/
+/*header start*/
+header{
+    padding: 15px;
+}
+.wrapper{
+    /* border: 1px solid red; */
+    width: 90%;
+    overflow: hidden;
+    margin: 0px auto;
+}
+.logo{
+    /* border: 1px solid green; */
+    width: 12%;
+    float: left;
+    margin: 10px 0px 11px;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    /* border: 2px solid black; */
+    width: 65%;
+    float: right;
+    margin-top: 15px;
+}
+.menu ul{
+    float: right;
+    margin: 2px;
+}
+.menu ul li {
+    list-style: none;
+    float: left;
+    
+}
+
+.menu ul li a{
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0px 55px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* border-bottom: 2px solid #626262 transparent; */
+
+}
+.menu ul li a:hover{
+    border-bottom: 2px solid #626262;
+    transition: 0.5s;
+}
+.menu ul li:last-child a{
+    margin-right: 0px;
+    padding-right: 0px;
+    
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+    /* border: 1px solid red; */
+    padding: 15px;
+}
+.wrapper img{
+    width: 100%;
+}
+/*banner end*/
+
+/*perfact start*/
+.perfact{
+    padding: 70px 0px;
+}
+
+.p-wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+.p-content{
+
+}
+.light {
+    font-family:'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.p-c-h1{
+    font-size: 30px;
+    font-weight: 400;
+    margin: 25px 0px 18px;
+    
+}
+
+.p-c-p{
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+/*perfact end*/
+
+/*blog start*/
+.blog{
+    padding: 70px 0px;
+}
+.blog-wrapper{
+    width: 80%;
+    overflow: hidden;
+}
+.single{
+    /*border: 1px solid yellow;*/
+    width: 47%;
+    float: left;
+}
+.single:nth-child(even){
+    margin-left: 6%; /*% dhorla responsive full single re 100% dhorla main width thika - dila % bahir hoba*/
+
+}
+.single img{
+    width: 100%;
+    margin-bottom: 30px
+}
+.p-c-p2{
+    line-height: 28px;
+    margin-bottom: 125px;
+}
+/*blog end*/
+
+/* sign-up start */
+.news{
+    /* border: 1px solid saddlebrown; */
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.news-wrapper{
+    /* border: 1px solid red; */
+    width: 60%;
+    margin: 0 auto;
+}
+.sign-up{
+    text-align: center;
+    margin: 70px 0px;
+}
+.sign-up h1{
+    font-weight: 400;
+    font-size: 30px;
+    color: #333333;
+    margin-bottom: 75px;
+}
+.sign-form{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+.sign-form input{
+    font-size: 14px;
+    width: 355px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    padding: 10px 45px 10px 10px;
+    outline: none;
+    
+}
+.sign-form button{
+    position: absolute;
+    top: 12px;
+    right: 0;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+/* sign-up end */
+
+/*load button start*/
+.load-blog{
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.load-blog button{
+    width: 160px;
+    height: 60px;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: #626262;
+    background-color: transparent;
+    cursor: pointer;
+    /* transition: 0.3ms; */
+
+}
+.load-blog button:focus{
+    outline:0;
+}
+.load-blog button:hover{
+    background-color: #626262;
+    color: white;
+    border:none;
+    transition: 0.3ms;
+
+}
+/*load butoon end*/
+
+/*footer start*/
+.footer-wrapper{
+    /*border: 1px solid red;*/
+    width: 100%;
+    min-height: 100px;
+    background-color: #F0F0F0;
+    
+}
+.f-contenet{
+    /*border: 1px solid green;*/
+    width: 80%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 40px 0px;
+}
+.f-c-left{
+    float: left;
+    overflow: hidden;
+}
+.f-c-left ul {
+
+}
+.f-c-left ul li{
+    list-style: none;
+    float:left;
+    margin-right: 15px;
+}
+.f-c-left ul li a{
+    text-decoration: none;
+}
+.f-c-right{
+    float:right;
+    overflow: hidden;
+}
+.f-c-right ul{
+    
+}
+.f-c-right ul li{
+    color: #000000;
+    list-style: none;
+    float:left;
+    margin-right: 15px;
+}
+.f-c-right ul li a{
+    text-decoration: none;
+}
+/* .f-c-right ul li:first-child a{
+        margin-right: 25px;
+} */
+.f-c-right ul li a img{
+    width: 100%;
+}
+/*footer end*/
